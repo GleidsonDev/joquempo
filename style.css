@@ -1,0 +1,125 @@
+body {
+  background-color: #82CDFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*Só centraliza definindo uma altura no body de 100vh*/
+}
+
+.winner-title {
+  height: 74px;
+  width: 430px;
+  background-color: #0099FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 33px;
+  border-radius: 12px 12px 0 0;
+}
+
+.scoreboard {
+  width: 950px;
+  height: 148px;
+  background-color: #0099FF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 17px;
+}
+
+.scoreboard-player-name {
+  color: #FFFFFF;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.score {
+  width: 130px;
+  height: 120px;
+  background-color: #DBF1FF;
+  border-radius: 17px;
+  font-size: 104px;
+  font-weight: 900;
+  line-height: 108px;
+  text-align: center;
+  color: #0099FF;
+}
+
+.vs-small {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 58px;
+  margin: 0 20px;
+}
+
+.battle-field {
+  margin-top: 56px;
+  height: 414px;
+  display: flex;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.button {
+  width: 220px;
+  height: 80px;
+  background-color: #0099FF;
+  font-size: 44px;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #000000;
+  transition: 300ms;
+}
+
+.button:hover {
+  border: 1px solid #0099FF;
+  background-color: transparent;
+  color: #0099FF;
+  box-shadow: 1px 1px 1px #000000;
+}
+
+.field-box {
+  width: 900px;
+  height: 414px;
+  background-color: #0099FF;
+  margin: 0 19px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.field {
+  width: 464px;
+  height: 345px;
+  background-color: #DBF1FF;
+  border-radius: 17px;
+}
+
+.vs-big {
+  font-size: 104px;
+  color: #FFFFFF;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.config {
+  margin-top: 22px;
+}
+
+.button-reset {
+  margin-left: 101px;
+}
